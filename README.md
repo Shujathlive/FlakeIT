@@ -12,6 +12,9 @@ This application consists o the following use cases,
 - Easy updation with direct stack based addition of New Pages
 
 ## Installation
+ - Download MeteorJS, from here,
+    https://www.meteor.com/install
+
 - Open Command Prompt, navigate to where the project is downloaded, Enter the following,
 
 ```cd FlakeIT // Navigate to Project directory```
