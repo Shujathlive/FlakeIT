@@ -13,26 +13,30 @@ This application consists o the following use cases,
 
 ## Installation
 - Open Command Prompt, navigate to where the project is downloaded, Enter the following,
-```
-cd FlakeIT // Navigate to Project directory
-npm install // Install 
-meteor // To run the app
-```
+
+```cd FlakeIT // Navigate to Project directory```
+```npm install // Install ```
+```meteor // To run the app```
+
 - Open Browser
 - Enter, https://localhost:3000
 
-For getting the unique code, after entering your contact number, open CMD, the unique code will be displayed beside your useer.
+For getting the unique code, after entering your contact number, open CMD, the unique code will be displayed beside your user.
 
-## Running on iOS (Using MAC)
-If you have a Mac, you can run your app inside the iOS simulator.
+### Running on iOS (Using MAC)
+If/ you have a Mac, you can run your app inside the iOS simulator.
 Go to your app folder and type:
+
 ```meteor install-sdk ios```
+
 This will run you through the setup necessary to build an iOS app from your project. When you're done, type:
-```meteor add-platform ios
-meteor run ios```
+
+```meteor add-platform ios```
+```meteor run ios```
+
 You will see the iOS simulator pop up with your app running inside.
 
-## Running on an Android emulator
+### Running on an Android emulator
 
 In the terminal, go to your app folder and type:
 
@@ -48,7 +52,7 @@ After you agree to the license terms, type:
 
 After some initialization, you will see an Android emulator pop up, running your app inside a native Android wrapper.
 
-## Running on an Android device
+### Running on an Android device
 
 First, complete all of the steps above to set up the Android tools on your system. Then, make sure you have USB Debugging enabled on your phone and the phone is plugged into your computer with a USB cable. Also, you must quit the Android emulator before running on a device.
 Then, run the following command:
