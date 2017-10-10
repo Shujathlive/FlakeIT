@@ -35,18 +35,26 @@ You will see the iOS simulator pop up with your app running inside.
 ## Running on an Android emulator
 
 In the terminal, go to your app folder and type:
+
 ```meteor install-sdk android```
+
 This will help you install all of the necessary tools to build an Android app from your project. When you are done installing everything, type:
+
 ```meteor add-platform android```
+
 After you agree to the license terms, type:
+
 ```meteor run android```
+
 After some initialization, you will see an Android emulator pop up, running your app inside a native Android wrapper.
 
 ## Running on an Android device
 
 First, complete all of the steps above to set up the Android tools on your system. Then, make sure you have USB Debugging enabled on your phone and the phone is plugged into your computer with a USB cable. Also, you must quit the Android emulator before running on a device.
 Then, run the following command:
+
 ```meteor run android-device```
+
 The app will be built and installed on your device.
 
 Use FLAKEIT and enjoy chatting! :)
