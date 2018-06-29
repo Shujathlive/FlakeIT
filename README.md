@@ -65,3 +65,5 @@ Then, run the following command:
 The app will be built and installed on your device.
 
 Use FLAKEIT and enjoy chatting! :)
+
+Made with &#x2764; using MeteorJS
